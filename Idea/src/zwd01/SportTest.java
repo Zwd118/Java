@@ -1,5 +1,5 @@
 package zwd01;
-
+//666
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStreamWriter;
@@ -11,23 +11,23 @@ public class SportTest {
 
 		Scanner sc = new Scanner(System.in);
 
-		System.out.println("=========1.ÊäÈë     2.²éÑ¯     0.ÍË³ö=========");
-		System.out.println("ÇëÑ¡Ôñ:");
+		System.out.println("=========1.è¾“å…¥     2.æŸ¥è¯¢     0.é€€å‡º=========");
+		System.out.println("è¯·é€‰æ‹©:");
 
 		String sr12 = sc.next();
 
 		while("1".equals (sr12)){
 
-			System.out.print("ÇëÊäÈëĞÕÃû£º");
+			System.out.print("è¯·è¾“å…¥å§“åï¼š");
 			String name = sc.next();
 
-			System.out.print("ÇëÊäÈëÄêÁä£º");
+			System.out.print("è¯·è¾“å…¥å¹´é¾„ï¼š");
 			String age = sc.next();
 
-			System.out.print("ÇëÊäÈë¹ú¼®£º");
+			System.out.print("è¯·è¾“å…¥å›½ç±ï¼š");
 			String gj = sc.next();
 
-			//	char [] chs ={name,age,gj}; //Ğ´ÈëÊı×échsÖĞ,ÀàĞÍ²»Ïà·û£¬ÒÔºó½â¾ö
+			//	char [] chs ={name,age,gj}; //å†™å…¥æ•°ç»„chsä¸­,ç±»å‹ä¸ç›¸ç¬¦ï¼Œä»¥åè§£å†³
 			//	String str = new String(chs);
 
 			OutputStreamWriter osw = new OutputStreamWriter(new FileOutputStream("C://Data//osw.txt",true),"GBK");
@@ -35,10 +35,10 @@ public class SportTest {
 			osw.write("\n");
 			//osw.flush();
 
-			System.out.print("¼ÌĞøÂ¼ÈëÂğ(y/n)?");
+			System.out.print("ç»§ç»­å½•å…¥å—(y/n)?");
 			String sf = sc.next();
 			if("n".equals (sf) | "N".equals (sf)){
-				System.out.println("ÒÑÍË³ö£¬Ğ»Ğ»Ê¹ÓÃ£¡");
+				System.out.println("å·²é€€å‡ºï¼Œè°¢è°¢ä½¿ç”¨ï¼");
 				osw.flush();
 				osw.close();
 				break;
@@ -48,7 +48,7 @@ public class SportTest {
 
 
 		while("2".equals (sr12)){
-			System.out.println("²éÑ¯¹¦ÄÜ");
+			System.out.println("æŸ¥è¯¢åŠŸèƒ½");
 
 		}
 
