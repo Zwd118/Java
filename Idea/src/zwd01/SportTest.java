@@ -33,7 +33,7 @@ public class SportTest {
 			OutputStreamWriter osw = new OutputStreamWriter(new FileOutputStream("C://Data//osw.txt",true),"GBK");
 			osw.write(name+","+age+","+gj+",");
 			osw.write("\n");
-			//osw.flush();
+			osw.flush();
 
 			System.out.print("¼ÌÐøÂ¼ÈëÂð(y/n)?");
 			String sf = sc.next();
